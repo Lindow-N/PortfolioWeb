@@ -1,6 +1,6 @@
 import React from 'react';
 import Accueil from "./components/Accueil/Accueil";
-import {NavLink,BrowserRouter,Route,Switch} from 'react-router-dom';
+import {NavLink,BrowserRouter,Route,Switch, Router} from 'react-router-dom';
 import { HashRouter } from 'react-router-dom';
 import Onrec from "../src/components/Onrec/index";
 import Tinder from "../src/components/Tinder/index";
@@ -20,7 +20,7 @@ function App() {
   
 return (
 
-
+<Router basename={process.env.PUBLIC_URL}>
 <Switch>
      <ScrollToTop>
       <Route exact  path="/" component={Accueil}></Route>
@@ -39,7 +39,7 @@ return (
       </ScrollToTop>
 
 </Switch>
-
+</Router>
 
 )}
 
