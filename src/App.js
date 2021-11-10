@@ -22,18 +22,18 @@ return (
 
 <BrowserRouter>
      <ScrollToTop>
-      <Route exact  path="/" component={Accueil}></Route>
-      <Route exact  path="/Onrec" component={AccueilO}></Route>
-      <Route exact  path="/Tinder" component={Tinder}></Route> 
-      <Route exact  path="/404" component={Er}></Route>
-      <Route exact  path="/Tesla" component={Tesla}></Route>
+      <Route  path="/" component={Accueil}></Route>
+      <Route  path="/Onrec" component={AccueilO}></Route>
+      <Route  path="/Tinder" component={Tinder}></Route> 
+      <Route  path="/404" component={Er}></Route>
+      <Route  path="/Tesla" component={Tesla}></Route>
 
 
       
-      <Route exact  path="/PrestationsTarifs" component={PrestationsTarifs}></Route>
-      <Route exact  path="/Présentation" component={Présentation}></Route>
-      <Route exact  path="/Réalisation" component={Réalisation}></Route>
-      <Route exact  path="/Contact" component={Contact}></Route>
+      <Route  path="/PrestationsTarifs" component={PrestationsTarifs}></Route>
+      <Route  path="/Présentation" component={Présentation}></Route>
+      <Route  path="/Réalisation" component={Réalisation}></Route>
+      <Route  path="/Contact" component={Contact}></Route>
       
       </ScrollToTop>
 </BrowserRouter>
