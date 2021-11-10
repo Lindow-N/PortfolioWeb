@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/PortfolioWeb/static/css/main.7451557c.chunk.css",
+    "main.js": "/PortfolioWeb/static/js/main.e30d1610.chunk.js",
+    "main.js.map": "/PortfolioWeb/static/js/main.e30d1610.chunk.js.map",
+    "runtime-main.js": "/PortfolioWeb/static/js/runtime-main.4d303eb6.js",
+    "runtime-main.js.map": "/PortfolioWeb/static/js/runtime-main.4d303eb6.js.map",
+    "static/css/2.383c0125.chunk.css": "/PortfolioWeb/static/css/2.383c0125.chunk.css",
+    "static/js/2.432f1134.chunk.js": "/PortfolioWeb/static/js/2.432f1134.chunk.js",
+    "static/js/2.432f1134.chunk.js.map": "/PortfolioWeb/static/js/2.432f1134.chunk.js.map",
+    "index.html": "/PortfolioWeb/index.html",
+    "static/css/2.383c0125.chunk.css.map": "/PortfolioWeb/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.7451557c.chunk.css.map": "/PortfolioWeb/static/css/main.7451557c.chunk.css.map",
+    "static/js/2.432f1134.chunk.js.LICENSE.txt": "/PortfolioWeb/static/js/2.432f1134.chunk.js.LICENSE.txt",
+    "static/media/1085-removebg-preview.4aa6c5de.png": "/PortfolioWeb/static/media/1085-removebg-preview.4aa6c5de.png",
+    "static/media/30443076_1640888259360177_2027751448825036800_n-modified.40f5ea4c.png": "/PortfolioWeb/static/media/30443076_1640888259360177_2027751448825036800_n-modified.40f5ea4c.png",
+    "static/media/79354587_10212109782738993_5768654657832353792_n-modified.219955a9.png": "/PortfolioWeb/static/media/79354587_10212109782738993_5768654657832353792_n-modified.219955a9.png",
+    "static/media/Capture (1).357aeca4.PNG": "/PortfolioWeb/static/media/Capture (1).357aeca4.PNG",
+    "static/media/Capture (2).76e72c49.PNG": "/PortfolioWeb/static/media/Capture (2).76e72c49.PNG",
+    "static/media/Capwwture-removebg-preview (1).0f3b5e37.png": "/PortfolioWeb/static/media/Capwwture-removebg-preview (1).0f3b5e37.png",
+    "static/media/Scarecrow.63343086.png": "/PortfolioWeb/static/media/Scarecrow.63343086.png",
+    "static/media/about.93508fba.png": "/PortfolioWeb/static/media/about.93508fba.png",
+    "static/media/ddddddd.2baa2c6a.PNG": "/PortfolioWeb/static/media/ddddddd.2baa2c6a.PNG",
+    "static/media/dddddddsss).5959634b.PNG": "/PortfolioWeb/static/media/dddddddsss).5959634b.PNG",
+    "static/media/iconmonstr-disc-5-240.83faf1e3.png": "/PortfolioWeb/static/media/iconmonstr-disc-5-240.83faf1e3.png",
+    "static/media/iconmonstr-party-15-240.078fe595.png": "/PortfolioWeb/static/media/iconmonstr-party-15-240.078fe595.png",
+    "static/media/localhost_8080_ (13) (1).dd95412c.png": "/PortfolioWeb/static/media/localhost_8080_ (13) (1).dd95412c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d303eb6.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.432f1134.chunk.js",
+    "static/css/main.7451557c.chunk.css",
+    "static/js/main.e30d1610.chunk.js"
+  ]
+}
