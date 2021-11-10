@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Accueil from "./components/Accueil/Accueil";
+import {NavLink,BrowserRouter,Route} from 'react-router-dom';
+import Onrec from "../src/components/Onrec/index";
+import Tinder from "../src/components/Tinder/index";
+import ScrollToTop from './GoTop';
+import Er from './components/404/App';
+import Tesla from "./components/Tesla/App";
+
+
+
+import AccueilO from "./components/Onrec/components/Accueil/Accueil";
+import PrestationsTarifs from "./components/Onrec/components/PrestationsTarifs/PrestationsTarifs";
+import Présentation from "./components/Onrec/components/Présentation/Présentation";
+import Réalisation from "./components/Onrec/components/Réalisation/Réalisation";
+import Contact from "./components/Onrec/components/Contact/Contact";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  
+return (
 
-export default App;
+
+<BrowserRouter>
+     <ScrollToTop>
+      <Route exact  path="/" component={Accueil}></Route>
+      <Route exact  path="/Onrec" component={AccueilO}></Route>
+      <Route exact  path="/Tinder" component={Tinder}></Route> 
+      <Route exact  path="/404" component={Er}></Route>
+      <Route exact  path="/Tesla" component={Tesla}></Route>
+
+
+      
+      <Route exact  path="/PrestationsTarifs" component={PrestationsTarifs}></Route>
+      <Route exact  path="/Présentation" component={Présentation}></Route>
+      <Route exact  path="/Réalisation" component={Réalisation}></Route>
+      <Route exact  path="/Contact" component={Contact}></Route>
+      
+      </ScrollToTop>
+</BrowserRouter>
+
+
+
+)}
+
+
+
+export default App
