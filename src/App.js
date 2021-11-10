@@ -19,7 +19,7 @@ import Contact from "./components/Onrec/components/Contact/Contact";
 function App() {
   
 return (
-
+<>
 <Router basename={process.env.PUBLIC_URL}>
 <Switch>
      <ScrollToTop>
@@ -40,7 +40,7 @@ return (
 
 </Switch>
 </Router>
-
+</>
 )}
 
 
