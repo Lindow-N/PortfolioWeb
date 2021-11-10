@@ -1,6 +1,6 @@
 import React from 'react';
 import Accueil from "./components/Accueil/Accueil";
-import {NavLink,BrowserRouter,Route,Switch, Router} from 'react-router-dom';
+import {NavLink,BrowserRouter as Router,Route,Switch, BrowserRouter} from 'react-router-dom';
 import { HashRouter } from 'react-router-dom';
 import Onrec from "../src/components/Onrec/index";
 import Tinder from "../src/components/Tinder/index";
@@ -19,9 +19,11 @@ import Contact from "./components/Onrec/components/Contact/Contact";
 function App() {
   
 return (
-<>
+
+<div>
 <Router basename={process.env.PUBLIC_URL}>
-<Switch>
+
+
      <ScrollToTop>
       <Route exact  path="/" component={Accueil}></Route>
       <Route exact  path="/Onrec" component={AccueilO}></Route>
@@ -38,11 +40,10 @@ return (
       
       </ScrollToTop>
 
-</Switch>
 </Router>
-</>
+</div>
 )}
 
 
 
-export default App
+export default App;
