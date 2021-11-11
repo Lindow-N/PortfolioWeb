@@ -1,0 +1,43 @@
+#basic-nav-dropdown{
+  font-weight: bold;
+}
+
+.body{
+display: block;
+  background-image: url("./Blinguage/bg.jpg");
+background-position: right top;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 70%;
+  
+}
+
+.japnavbar {
+  margin-top: 6%;
+  padding-left: 16%;
+}
+.jap{
+  font-size: 90px;
+}
+
+.japone{
+  margin: 6% 0 0 17%;
+}
+
+.japtwo{
+  width: 30%;
+  margin-left: 6%;
+  margin-top: 9%;
+}
+
+.japthree{
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-top: 13%;
+}
+
+.Blinguage{
+  font-family: 'Besley', serif;
+}
+

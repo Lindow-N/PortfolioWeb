@@ -7,6 +7,7 @@ import onrec from "./imgApp/Capture (1).PNG";
 import tinder from "./imgApp/Capture (2).PNG";
 import er from "./imgApp/ddddddd.PNG";
 import tesla from "./imgApp/dddddddsss).PNG";
+import Jap from "./imgApp/adsaddsd.PNG";
 
 class Accueil extends React.Component {
  render() {
@@ -78,6 +79,21 @@ Projet très simple mais montre mes connaissances si besoin d'utiliser bootstrap
 </div>
 <div className={styles.cardApp3}><NavLink to="/Tesla" exact ><button className={styles.btnApp}>Voir Plus</button></NavLink></div>
 </div>
+
+
+<div  className={styles.cardApp}>
+
+<img id={styles.onrec} src={Jap}alt=""/>
+<div className={styles.cardApp2}>
+<h2 className={styles.h2App}>Projet Learn Japan</h2>
+<p className={styles.pApp}>Site d'apprentissage du japonais. Vu sur le site <a href="https://dribbble.com/shots/6678558-Japanese-Courses-Landing-Page">dribble</a> , le projet m'a plus alors je l'ai coder.</p>
+
+
+
+</div>
+<div className={styles.cardApp3}><NavLink to="/Jap" exact ><button className={styles.btnApp}>Voir Plus</button></NavLink></div>
+</div>
+
 </div>
 
 

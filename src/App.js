@@ -1,13 +1,11 @@
 import React from 'react';
 import Accueil from "./components/Accueil/Accueil";
 import {NavLink,BrowserRouter as Router,Route,Switch, BrowserRouter} from 'react-router-dom';
-import { HashRouter } from 'react-router-dom';
-import Onrec from "../src/components/Onrec/index";
 import Tinder from "../src/components/Tinder/index";
 import ScrollToTop from './GoTop';
 import Er from './components/404/App';
 import Tesla from "./components/Tesla/App";
-
+import Jap from "./components/Jap/index";
 
 
 import AccueilO from "./components/Onrec/components/Accueil/Accueil";
@@ -30,6 +28,7 @@ return (
       <Route exact  path="/Tinder" component={Tinder}></Route> 
       <Route exact  path="/404" component={Er}></Route>
       <Route exact  path="/Tesla" component={Tesla}></Route>
+      <Route exact  path="/Jap" component={Jap}></Route>
 
 
       
