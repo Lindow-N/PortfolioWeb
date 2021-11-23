@@ -83,6 +83,12 @@ body {
 
 }
 
+.btnApp:hover{
+    background-color: white;
+    color: #105652;
+    border: #105652 1px solid;
+}
+
 .cardApp a:link {
     text-decoration: none;
     align-self: flex-end;
